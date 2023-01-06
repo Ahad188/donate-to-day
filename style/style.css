@@ -161,7 +161,7 @@ section{
       margin-left: 30px;
 }
 .servi-text .btn{
-     text-decoration: none;
+     /* text-decoration: none; */
      background: tomato;
      font-size: 40px;
      width: 150px;
@@ -169,10 +169,11 @@ section{
      border-radius: 5px;
      color: black;
      margin-left: 30px;
+     transition: 0.3 ease-in-out;
 }
 .servi-text .btn:hover{
      background: transparent;
-      border: 2px solid gray;
+     box-shadow: 2px 4px 16px red;
 }
 /* update */
 .update{
@@ -225,11 +226,12 @@ section{
      font-size: 20px;
      width: 120px;
      height: 35px;
+     letter-spacing: 2px;
      border-radius: 10px;
      margin-left: -30px;
      background: salmon;
      border: 2px solid salmon;
-     padding: 5px 30px;
+     padding: 5px 10px;
  }
 
  .newsleter a{
